@@ -2,7 +2,7 @@
 
 **Полноценная карточная игра «Дурак» как Telegram Web App**
 
-🎮 [Играть](https://t.me/Durak1game_bot) | 📱 [Telegram](https://t.me/LORD_ELSHAD) | 🌐 [Web](https://durak-online-djye.onrender.com)
+🎮 [Играть Telegram Bot](https://t.me/Durak1game_bot) || 🌐 [Web](https://durak-online-djye.onrender.com)
 
 > Разработчик: **LORDEL** ([Elshad Huseynov](https://t.me/LORD_ELSHAD))
 
