@@ -71,33 +71,10 @@
 | Bot | Telegram Bot API |
 | Auth | Telegram Login Widget + WebApp initData |
 | Audio | Web Audio API |
-| Deploy | Render.com |
+| Deploy | *****|
 
 ---
 
-## Структура
-
-```
-durak-online/
-├── src/
-│   ├── App.jsx           # 3316 строк — экраны + игра
-│   ├── screens.jsx       # 1304 строк — доп. экраны
-│   ├── music.js          # Процедурная музыка
-│   ├── sounds.js         # 15+ звуков
-│   ├── skins.js          # 12 скинов + рамки + титулы
-│   ├── i18n.js           # 4 языка
-│   ├── twa.js            # Telegram WebApp helpers
-│   └── useMultiplayer.js # Socket.IO hook
-├── server/
-│   ├── index.js          # 842 строк — Express + 30 API
-│   ├── gameEngine.js     # 410 строк — мультиплеер движок
-│   └── socketHandler.js  # 230 строк — Socket.IO
-└── README.md
-```
-
-**Итого: 7400+ строк кода, 17 экранов, 30 API endpoints**
-
----
 
 ## Экраны (17)
 
@@ -113,23 +90,6 @@ npm run dev        # разработка
 npm run build      # сборка
 npm start          # продакшен
 ```
-
-### Переменные окружения
-
-```env
-DATABASE_URL=postgresql://...
-TELEGRAM_BOT_TOKEN=...
-APP_URL=https://durak-online-djye.onrender.com
-NODE_ENV=production
-```
-
----
-
-## Деплой (Render)
-
-1. PostgreSQL база на Render
-2. Web Service → Build: `npm install && npm run build` → Start: `npm start`
-3. Env variables → DATABASE_URL, TELEGRAM_BOT_TOKEN, APP_URL, NODE_ENV
 
 ---
 
